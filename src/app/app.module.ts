@@ -5,12 +5,18 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavbarComponent } from './navbar/navbar.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { FeatureComponent } from './feature/feature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    NavbarComponent,
+    JumbotronComponent,
+    FeatureComponent
   ],
   imports: [
     BrowserModule,
