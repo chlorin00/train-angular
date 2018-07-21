@@ -1,0 +1,9 @@
+<button class="btn btn-primary" [disabled]="!isAllowed" (click)="calculate()">CALCULATE</button>
+<p>{{ result }}</p>
+
+<br/>
+<input type="number" [(ngModel)]="num1" (input)="calculate()"/>
+<input type="number" [(ngModel)]="num2" (input)="calculate()"/>
+ 
+<br/>
+<p>STATUS : {{ num1 }} + {{ num2 }}</p>
